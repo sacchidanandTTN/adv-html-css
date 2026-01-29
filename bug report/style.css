@@ -1,0 +1,113 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  box-sizing: border-box;
+}
+
+.site-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 6%;
+  border-bottom: 1px solid gray;
+}
+
+
+ .co-name {
+    color: yellowgreen;
+  font-weight: 600;
+  letter-spacing: 0.6px;
+}
+
+.site-top > nav > a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: yellowgreen;
+  font-size: 15px;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  padding: 28px 6%;
+}
+
+
+ form.card {
+  width: 680px;
+  border: 1px solid gray;
+  border-radius: 6px;
+  overflow: hidden;
+  background: white;
+}
+
+
+ .card-heading {
+  background: gray;
+  color: white;
+  padding: 18px 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+
+.card-body {
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.card-body > div {
+  display: flex;
+  flex-direction: column;
+}
+ .card-body label {
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+.card-body input[type="text"],
+ .card-body textarea,
+ .card-body select,
+ .card-body input[type="file"] {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid gray;
+  border-radius: 3px;
+  font-size: 14px;
+  background:white;
+}
+
+
+
+.card-body > .radio {
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+
+ .radio input[type="radio"] {
+  margin-right: 4px;
+}
+
+ .button-div {
+  background: rgb(193, 192, 192);
+  padding: 12px 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-div > button {
+  background: yellowgreen;
+  color: white;
+  border: 1px solid rgba(0,0,0,0.15);
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-weight: 600;
+  
+}
+
+
+

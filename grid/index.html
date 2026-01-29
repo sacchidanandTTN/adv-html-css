@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Assignment</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        body {
+            display: grid;
+            height: 600px;
+            width: 600px;
+            gap: 10px;
+            grid-template-rows: 100px 100px 100px;
+            grid-template-columns:100px 100px 100px ;
+            grid-template-areas: "box1 box2 box3"
+            "box4 box5 box6"
+            "box7 box8 box9"
+            ;
+        }
+        .item{
+            background-color: aquamarine;
+            margin: 5px;
+            padding: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="item" style="grid-area: box1;">1</div>
+    <div class="item" style="grid-area: box2;">2</div>
+    <div class="item" style="grid-area: box3;">3</div>
+    <div class="item" style="grid-area: box4;">4</div>
+    <div class="item" style="grid-area: box5;">5</div>
+    <div class="item" style="grid-area: box6;">6</div>
+    <div class="item" style="grid-area: box7;">7</div>
+    <div class="item" style="grid-area: box8;">8</div>
+    <div class="item" style="grid-area: box9;">9</div>
+    <!-- <div class="item" style="grid-area: box5;">5</div> -->
+</body>
+</html>

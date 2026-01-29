@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BugReport</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-top">
+        <div class="co-name">TO THE NEW</div>
+        <nav class="top-nav">
+            <a href="#">Home</a>
+            <a href="#">Quick Help</a>
+        </nav>
+    </header>
+
+    <main>
+        <form class="card" action="#" method="post">
+            <div class="card-heading">Bug Report</div>
+
+            <div class="card-body">
+                <div class="fields">
+                    <label for="title">Title:*</label><br>
+                    <input type="text" name="title" id="title"><br>
+                </div>
+                <div class="fields">
+
+
+                    <label for="description">Description:*</label>
+                    <textarea id="description" name="description" rows="4" cols="50">
+            </textarea>
+                </div>
+                <div class="fields">
+                    <label for="">Operating system:</label>
+                    <select name="Operating system:" id="">
+                        <option value="window">Window</option>
+                        <option value="linux">Linux</option>
+                        <option value="mac">Mac</option>
+                    </select>
+                </div>
+                <div class="fields">
+                    <label for="product">Product:*</label>
+                    <select id="product">
+                        <option value="formoid">Formoid</option>
+                        <option value="formdata">FormData</option>
+                        <option value="formmodel">FormModel</option>
+                    </select>
+                </div>
+                <div class="fields">
+                    <label for="version">Version:*</label><br>
+                    <input type="text">
+                </div>
+
+                <div class="radio">
+                    <label for="">License:</label><br>
+                    <input type="radio" name="licence" value="Free">Free
+                    <input type="radio" name="licence" value="Business">Business
+                </div>
+
+                <div class="fields">
+                    <label for="severity">Severity:*</label>
+                    <select id="product">
+                        <option value="critical">Critical</option>
+                        <option value="moderate">Moderate</option>
+                        <option value="sever">Severity</option>
+                    </select>
+                </div>
+
+                <div class="fields">
+                    <label for="attachements">Attachements:</label>
+                    <input type="file" name="attachements" id="attachements">
+                </div>
+            </div>
+            <div class="button-div">
+                <button class="button">Send</button>
+            </div>
+        </form>
+    </main>
+</body>
+</html>
